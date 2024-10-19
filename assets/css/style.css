@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.everyThing-container{
+    background-image: url(./../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color-main{
+    color: var(--main-color);
+}
+.converter{
+    position: relative;
+}
+.the-result-p{
+    position: absolute;
+    top: 0;
+    font-size: 55px !important;
+}
+#calcBtn{
+    position: absolute;
+    bottom:0;
+}
+.form-select{
+    cursor: pointer;
+}
+#fault{
+    display: none;
+}
+#noUnitSelected{
+    display: none;
+}
+#textInput{
+    display: none;
+}
+@media (max-width:575px) {
+    #fromSelect,#toSelect{
+        width: 100%;
+    }
+    .input-group-text{
+        margin-bottom: 15px;
+    }
+}
